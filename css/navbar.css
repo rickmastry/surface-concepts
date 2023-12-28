@@ -1,0 +1,236 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background: rgb(54, 52, 52);
+    z-index: 2;
+    /*padding: 90px 10px;*/
+    /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s ease-in-out;
+    /* Adds a transition effect when the padding is decreased */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+
+}
+
+.navbar-center {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+}
+
+.navbar-brand {
+    width: 400px;
+    height: 100px;
+    background: url('../img/LOGO4.png') no-repeat center center;
+    background-size: contain;
+    justify-content: space-around;
+    color: var(--mainWhite);
+    text-decoration: none;
+}
+
+.navbar-brand-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-icon {
+    display: none !important;
+}
+
+.fas.fa-bars {
+    display: none !important;
+}
+
+.navigation {
+    display: inline-block;
+    margin-left: 0;
+    text-decoration: none;
+    color: var(--mainWhite);
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    transition: var(--mainTransition);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+
+.navactive {
+    color: var(--mainWhite);
+    border-bottom: var(--mainWhite)1px solid;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.navigation:hover {
+    color: var(--mainBlue) !important;
+}
+
+.navigation-dropdown:hover {
+    color: var(--mainBlue) !important;
+}
+
+.navigation-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 0;
+    text-decoration: none;
+    color: var(--mainWhite);
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    transition: var(--mainTransition);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--mainBlue);
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    opacity: 0.8;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-size: 17px;
+    color: var(--mainWhite);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    transition: var(--mainTransition);
+    border-bottom: 2px solid var(--mainBlack);
+
+}
+
+.phone {
+    margin-bottom: 70px;
+
+}
+
+.fa.fa-phone {
+    font-size: 15px;
+    color: var(--mainWhite)
+}
+
+.phone-icon {
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--mainWhite);
+    padding-bottom: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    color: var(--mainWhite);
+    transition: var(--mainTransition);
+    background-color: var(--secondaryBlack);
+
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media only screen and (max-width: 950px) and (orientation : landscape) {
+    .nav-icon {
+        position: absolute;
+        right: 70px;
+        display: block !important;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: white;
+    }
+
+    .fas.fa-bars {
+        display: block !important;
+        cursor: pointer !important;
+
+    }
+
+    .navbar-brand {
+        width: 200px;
+        height: 75px;
+    }
+
+    .navbar {
+        height: 120px;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .navigation {
+        display: none !important;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) and (orientation : portrait) {
+    .nav-icon {
+        position: absolute;
+        right: 70px;
+        display: block !important;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: white;
+    }
+
+    .fas.fa-bars {
+        display: block !important;
+        cursor: pointer !important;
+
+    }
+
+    .navbar-brand {
+        width: 200px;
+        height: 75px;
+    }
+
+    .navbar {
+        height: 120px;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .navigation {
+        display: none !important;
+
+    }
+
+}

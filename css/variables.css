@@ -1,0 +1,23 @@
+:root {
+    --mainWhite: #fff;
+    --mainBlack: #333;
+    --secondaryBlack: #1B1212;
+    --lightBlue: #B2DFF6;
+    --lightShadowLeft: rgba(50, 55, 57, 0.4);
+    --lightShadowRight: rgba(50, 55, 57, 0.4);
+    --mainBlue: #0085D0;
+    --mainBlueRight: rgba(0, 133, 208, 0.3);
+    --hoverColorLeft: rgba(130, 211, 251, 1);
+    --hoverColorRight: rgba(8, 164, 255, 1);
+    --mainTransition: all 0.4s ease-in-out;
+    --secondaryTransition: all 0.9s ease-in-out;
+    --speed: 1000ms;
+
+    --hoverWidth: 75%;
+    --hoverWidthFull: 100%;
+    --hoverHeight: 70%;
+    --otherHoverWidth: 25%;
+    --otherHoverHeight: 30%;
+
+    --speed: 1000ms;
+}

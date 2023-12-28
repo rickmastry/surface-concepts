@@ -1,0 +1,328 @@
+@import url('variables.css');
+@import url('navbar.css');
+@import url('side-navbar.css');
+@import url('buttons.css');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #333;
+}
+
+.split {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.split.left {
+    left: 0;
+    background-image: url('../img/left.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.img-container {
+    top: 119px;
+    bottom: 0;
+    position: absolute;
+    right: 700px;
+    background-image: url('../img/swoosh-smaller.png');
+    width: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: var(--secondaryTransition);
+    opacity: 1;
+}
+
+
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    white-space: nowrap;
+    transition: var(--secondaryTransition);
+}
+
+.split.left::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--lightShadowLeft);
+}
+
+.split.right {
+    right: 0;
+    background-image: url('../img/right.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.split.right::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+
+
+.hover-left .left {
+    width: var(--hoverWidth);
+
+}
+
+.hover-left .right {
+    width: var(--otherHoverWidth);
+
+}
+
+.hover-right .right {
+    width: var(--hoverWidth);
+
+}
+
+.hover-right .left {
+    width: var(--otherHoverWidth);
+
+}
+
+.split.left,
+.split.right,
+.split-right::before,
+.ssplit-left::before {
+    transition: var(--speed) all ease-in-out;
+
+}
+
+@media only screen and (max-width: 950px) and (orientation : landscape) {
+
+    .nav-icon {
+        margin-right: 140px;
+        position: absolute;
+        right: 10px;
+        display: block !important;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: white;
+    }
+
+    .phone {
+        margin-right: 380px;
+        margin-bottom: 0;
+
+    }
+
+    .img-container {
+        top: 119px;
+        bottom: 0;
+        position: absolute;
+        right: 450px;
+        background-image: url('../img/bluerec.png');
+        width: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: var(--secondaryTransition);
+        opacity: 1;
+    }
+
+
+
+    .split.right h1,
+    .split.left h1 {
+        font-size: 2rem;
+
+    }
+
+    .btn-primary-landing {
+        width: 200px;
+    }
+
+    .side-nav a {
+        font-size: 16px;
+        padding: 7px 7px 1px 7px;
+    }
+
+    #side-nav-b {
+        padding: 7px 1px 5px 60px;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) and (orientation : portrait) {
+    .img-container {
+        rotate: 90deg;
+        display: block;
+        left: 119px;
+        position: absolute;
+        bottom: 100px;
+        background-image: url(../img/teal-gold.png);
+        width: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: var(--secondaryTransition);
+        opacity: 1;
+    }
+
+
+    .img-container-logo {
+        right: 80px;
+        top: 10%;
+        position: absolute;
+        background-image: url('../img/LOGO4.png');
+        width: 250px;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: var(--secondaryTransition);
+        opacity: 1;
+    }
+
+    .img-container-logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        white-space: nowrap;
+        transition: var(--secondaryTransition);
+    }
+
+
+    .split.right h1,
+    .split.left h1 {
+        font-size: 2rem;
+
+    }
+
+    .hover-left .left {
+        height: var(--hoverHeight);
+        width: var(--hoverWidthFull);
+
+    }
+
+    .hover-left .left h1 {
+        margin-bottom: 20px;
+    }
+
+    .hover-left .right {
+        height: var(--otherHoverHeight);
+        width: var(--hoverWidthFull);
+
+    }
+
+    .hover-right .right {
+        height: var(--hoverHeight);
+        width: var(--hoverWidthFull);
+
+    }
+
+    .hover-right .left {
+        height: var(--otherHoverHeight);
+        width: var(--hoverWidthFull);
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .split {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        overflow: hidden;
+
+    }
+
+    .split.left {
+        top: 0;
+
+
+    }
+
+    .split.right {
+        bottom: 0;
+
+
+    }
+
+    .phone {
+        margin-right: 80px;
+        margin-bottom: 0px;
+
+    }
+
+    .fa.fa-phone {
+        font-size: 12px;
+        color: var(--mainWhite)
+    }
+
+    .phone-icon {
+        text-decoration: none;
+        font-size: 12px;
+        color: var(--mainWhite);
+        padding-bottom: 5px;
+    }
+
+
+
+    .navbar-brand {
+        width: 200px;
+        height: 75px;
+    }
+
+    .nav-icon {
+        margin-right: 50px;
+        position: absolute;
+        right: -10px;
+        display: block !important;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: white;
+    }
+
+    .fas.fa-bars {
+        display: block !important;
+        cursor: pointer !important;
+
+    }
+
+    .navbar-center {
+        padding: 0 0.5rem;
+    }
+
+
+
+
+}

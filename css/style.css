@@ -148,7 +148,7 @@ h1 {
         bottom: 0;
         position: absolute;
         right: 450px;
-        background-image: url('../img/bluerec.png');
+        background-image: url('img/bluerec.png');
         width: 20px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -187,7 +187,7 @@ h1 {
         left: 119px;
         position: absolute;
         bottom: 100px;
-        background-image: url(../img/teal-gold.png);
+        background-image: url(img/teal-gold.png);
         width: 20px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -200,7 +200,7 @@ h1 {
         right: 80px;
         top: 10%;
         position: absolute;
-        background-image: url('../img/LOGO4.png');
+        background-image: url('img/LOGO4.png');
         width: 250px;
         height: 150px;
         background-repeat: no-repeat;

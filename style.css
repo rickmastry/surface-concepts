@@ -82,7 +82,7 @@ body {
 .navbar-brand {
     width: 400px;
     height: 100px;
-    background: url('../img/sc_white.png') no-repeat center center;
+    background: url('img/sc_white.png') no-repeat center center;
     background-size: contain;
     justify-content: space-around;
     color: var(--mainWhite);
@@ -92,7 +92,7 @@ body {
 .navbar-brand-secondary {
     width: 400px;
     height: 100px;
-    background: url('../img/LOGO4.png') no-repeat center center;
+    background: url('img/LOGO4.png') no-repeat center center;
     background-size: contain;
     justify-content: space-around;
     color: var(--mainWhite);
@@ -321,7 +321,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../img/pic-1.jpg");
+    background: url("img/pic-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -436,7 +436,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("../img/pic-2.jpg");
+    background-image: url("img/pic-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -469,7 +469,7 @@ a {
 .split-right-img-container {
     width: 500px;
     height: 400px;
-    background-image: url('../img/pic-2.jpg');
+    background-image: url('img/pic-2.jpg');
     background-position: center;
     background-repeat: no-repeat;
 
@@ -478,7 +478,7 @@ a {
 .split-right-pool-deck-img-container {
     width: 500px;
     height: 400px;
-    background-image: url('../img/pool-deck1.jpg');
+    background-image: url('img/pool-deck1.jpg');
     background-position: center;
     background-repeat: no-repeat;
 
@@ -487,7 +487,7 @@ a {
 .split-right-driveway-img-container {
     width: 500px;
     height: 400px;
-    background-image: url('../img/driveway.jpg');
+    background-image: url('img/driveway.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -497,7 +497,7 @@ a {
 .split-right-ext-img-container {
     width: 500px;
     height: 400px;
-    background-image: url('../img/house.jpg');
+    background-image: url('img/house.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -507,7 +507,7 @@ a {
 .split-right-flat-img-container {
     width: 500px;
     height: 400px;
-    background-image: url('../img/house2.jpg');
+    background-image: url('img/house2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -660,7 +660,7 @@ a {
     transform: translateY(-50%);
     margin-left: auto;
     margin-right: auto;
-    background-image: url('../img/deck-chair.png');
+    background-image: url('img/deck-chair.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -676,7 +676,7 @@ a {
     transform: translateY(-50%);
     margin-left: auto;
     margin-right: auto;
-    background-image: url('../img/road.png');
+    background-image: url('img/road.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -692,7 +692,7 @@ a {
     transform: translateY(-50%);
     margin-left: auto;
     margin-right: auto;
-    background-image: url('../img/waterproof-fabric.png');
+    background-image: url('img/waterproof-fabric.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -708,7 +708,7 @@ a {
     transform: translateY(-50%);
     margin-left: auto;
     margin-right: auto;
-    background-image: url('../img/brickwall.png');
+    background-image: url('img/brickwall.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -1520,6 +1520,7 @@ a.icons:hover {
         font-size: 1.5rem;
         cursor: pointer;
         color: white;
+        right: 10px;
     }
 
     .fas.fa-bars {

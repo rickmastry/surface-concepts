@@ -39,13 +39,13 @@ function scrollFunction() {
   
   if(document.documentElement.scrollTop < 100){
     document.querySelector(".navbar").style.background = " transparent";
-    document.querySelector(".navbar-brand").style.background = "url('../img/sc_white.png') no-repeat center center";
+    document.querySelector(".navbar-brand").style.background = "url('img/sc_white.png') no-repeat center center";
     document.querySelector(".navbar-brand").style.backgroundSize = "contain";
    
     
   }else{
     document.querySelector(".navbar").style.background = "rgb(54, 52, 52)";
-    document.querySelector(".navbar-brand").style.background = "url('../img/LOGO4.png') no-repeat center center";
+    document.querySelector(".navbar-brand").style.background = "url('img/LOGO4.png') no-repeat center center";
     document.querySelector(".navbar-brand").style.backgroundSize = "contain";
 
   }

@@ -1295,7 +1295,7 @@ a.icons:hover {
     }
 
     .email-container {
-        width: 420px;
+        width: 400px;
         text-align: left;
     }
 
@@ -1304,23 +1304,28 @@ a.icons:hover {
     }
 
     .btn-primary-contact {
-        width: 410px;
+        margin-left: 80px;
+        width: 240px;
+    }
+
+    .emailForm h1 {
+        margin-left: 80px;
     }
 
     textarea {
-        width: 400px;
+        width: 380px;
     }
 
     #first-name {
-        width: 400px;
+        width: 380px;
     }
 
     #last-name {
-        width: 400px;
+        width: 380px;
     }
 
     input {
-        width: 400px;
+        width: 380px;
     }
 
     .contact-section {

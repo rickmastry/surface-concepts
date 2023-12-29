@@ -1285,12 +1285,12 @@ a.icons:hover {
         margin-right: 50px;
         position: absolute;
         display: block !important;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         cursor: pointer;
         color: white;
     }
 
-    .email-container .emailForm h1 {
+    #emailForm h1 {
         text-align: center;
     }
 
@@ -1300,8 +1300,10 @@ a.icons:hover {
     }
 
     .block-section {
-        width: 350px;
+        margin: auto;
+        width: 300px;
     }
+
 
     .btn-primary-contact {
         margin-left: 80px;
@@ -1406,9 +1408,7 @@ a.icons:hover {
     }
 
     .phone {
-        margin-right: 80px;
-        margin-bottom: 0px;
-
+        display: none;
     }
 
     .navbar-brand {

@@ -1004,6 +1004,14 @@ a.icons:hover {
 
 
 @media only screen and (max-width: 950px) and (orientation : landscape) {
+    #first-name {
+        width: 200px;
+    }
+
+    #last-name {
+        width: 200px;
+    }
+
     .email-container {
         width: 420px;
     }

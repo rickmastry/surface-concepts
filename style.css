@@ -1519,16 +1519,6 @@ a.icons:hover {
         display: none;
     }
 
-
-    .nav-icon {
-        position: absolute;
-        display: block !important;
-        font-size: 1.5rem;
-        cursor: pointer;
-        color: white;
-        right: 20px;
-    }
-
     .fas.fa-bars {
         display: block !important;
         cursor: pointer !important;

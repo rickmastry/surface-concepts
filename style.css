@@ -821,7 +821,7 @@ footer {
 }
 
 .copyright h1 {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 #first-name {
@@ -959,6 +959,12 @@ a.icons {
     transition: all 0.5s ease-in-out;
 }
 
+a.icon-google {
+    color: var(--mainBlue);
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+}
+
 a.icons:hover {
     color: var(--secondaryBlue);
 }
@@ -978,8 +984,16 @@ a.icons:hover {
     margin: auto;
 }
 
+.gallery-before h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .gallery-after {
     margin: auto;
+}
+
+.gallery-after h1 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .img-gallery {
@@ -989,8 +1003,8 @@ a.icons:hover {
 
 .gallery img {
     transition: 1s;
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     border: none !important;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
@@ -1013,6 +1027,65 @@ a.icons:hover {
     font-size: 2rem;
     color: var(--mainBlue);
     font-family: 'Fjalla One', sans-serif;
+}
+
+.google-icon {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    border-radius: 50px;
+    padding: 10px;
+    bottom: 70px;
+    z-index: 999999;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.floating-icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s eas
+}
+
+.fab.fa-google {
+    overflow: visible;
+    text-align: center;
+}
+
+.message {
+    bottom: 0;
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    right: 0;
+    background: var(--mainWhite);
+    color: var(--mainBlue);
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 0.5rem 0.75rem;
+    transition: var(--mainTransition);
+    transform: translateX(0%);
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 100;
+    visibility: hidden;
+    margin-bottom: 2px;
+}
+
+.google-icon:hover .message {
+    visibility: visible;
+    width: 300px;
+    transform: translateX(75%);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4)
 }
 
 

@@ -32,7 +32,7 @@ body {
 
 .split.left {
     left: 0;
-    background-image: url('../img/left.jpg');
+    background-image: url('../beforeAfterImg/COMMERCIAL SPLASH.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -43,7 +43,7 @@ body {
     top: 119px;
     bottom: 0;
     position: absolute;
-    right: 700px;
+    right: 43%;
     background-image: url('../img/swoosh-smaller.png');
     width: 220px;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ body {
 
 .split.right {
     right: 0;
-    background-image: url('../img/right.jpg');
+    background-image: url('../beforeAfterImg/RESIDENTIAL SPLASH.JPEG');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -125,6 +125,12 @@ h1 {
 
 }
 
+@media only screen and (max-width: 1300px) and (orientation : landscape) {
+    .img-container {
+        right: 42%;
+    }
+}
+
 @media only screen and (max-width: 950px) and (orientation : landscape) {
 
     .nav-icon {
@@ -147,9 +153,9 @@ h1 {
         top: 119px;
         bottom: 0;
         position: absolute;
-        right: 440px;
-        background-image: url('../img/tealrec.png');
-        width: 20px;
+        right: 43%;
+        background-image: url('../img/swoosh-smaller.png');
+        width: 120px;
         background-repeat: no-repeat;
         background-size: cover;
         transition: var(--secondaryTransition);
@@ -184,13 +190,13 @@ h1 {
     .img-container {
         rotate: 90deg;
         display: block;
-        left: 119px;
+        left: 0%;
         position: absolute;
         bottom: 100px;
-        background-image: url(../img/teal-gold.png);
-        width: 20px;
+        background-image: url(../img/swoosh-smaller.png);
+        width: 180px;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         transition: var(--secondaryTransition);
         opacity: 1;
     }

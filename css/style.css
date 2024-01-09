@@ -32,7 +32,7 @@ body {
 
 .split.left {
     left: 0;
-    background-image: url('../beforeAfterImg/COMMERCIAL SPLASH.jpg');
+    background-image: url('../img/pelicans.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -49,7 +49,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     transition: var(--secondaryTransition);
-    opacity: 1;
+    /*opacity: 1;*/
 }
 
 
@@ -67,7 +67,7 @@ body {
     content: "";
     width: 100%;
     height: 100%;
-    background-color: var(--lightShadowLeft);
+    /*background-color: var(--lightShadowLeft);*/
 }
 
 .split.right {

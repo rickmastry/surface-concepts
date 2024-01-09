@@ -321,7 +321,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("img/pic-1.jpg");
+    background: url("img/main-res.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -446,6 +446,38 @@ a {
 
 }
 
+.hero-two-com {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("beforeAfterImg/PARKING GARAGE AFTER.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .4);
+
+}
+
+.hero-commercial {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("beforeAfterImg/PARKING GARAGE AFTER.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .4);
+
+}
+
 .split-left {
     margin: 100px;
     width: 50%;
@@ -472,6 +504,16 @@ a {
     background-image: url('img/pic-2.jpg');
     background-position: center;
     background-repeat: no-repeat;
+
+}
+
+.split-right-img-container-com {
+    width: 500px;
+    height: 400px;
+    background-image: url('beforeAfterImg/COMMERCIAL SPLASH.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 
 }
 
@@ -667,8 +709,23 @@ a {
     background-size: 50%;
 }
 
-.box-img-container-two {
+.box-img-container-one-com {
+    background: var(--mainBlue);
+    color: var(--mainWhite);
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    transform: translateY(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('img/basketball-solid.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
 
+
+.box-img-container-two {
     background: var(--mainBlue);
     color: var(--mainWhite);
     border-radius: 50%;
@@ -683,8 +740,22 @@ a {
     background-size: 50%;
 }
 
-.box-img-container-three {
+.box-img-container-two-com {
+    background: var(--mainBlue);
+    color: var(--mainWhite);
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    transform: translateY(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('img/car-side-solid.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
 
+.box-img-container-three {
     background: var(--mainBlue);
     color: var(--mainWhite);
     border-radius: 50%;
@@ -699,8 +770,22 @@ a {
     background-size: 50%;
 }
 
-.box-img-container-four {
+.box-img-container-three-com {
+    background: var(--mainBlue);
+    color: var(--mainWhite);
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    transform: translateY(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('img/umbrella-beach-solid.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
 
+.box-img-container-four {
     background: var(--mainBlue);
     color: var(--mainWhite);
     border-radius: 50%;
@@ -710,6 +795,21 @@ a {
     margin-left: auto;
     margin-right: auto;
     background-image: url('img/brickwall.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.box-img-container-four-com {
+    background: var(--mainBlue);
+    color: var(--mainWhite);
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    transform: translateY(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('img/bridge-solid.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -752,6 +852,15 @@ a {
 .info {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.info-commercial {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.info-commercial h3 {
+    margin: 2px;
 }
 
 .third-section {

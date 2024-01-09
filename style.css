@@ -478,6 +478,11 @@ a {
 
 }
 
+.hero-commercial img {
+    width: 100%;
+    height: 100%;
+}
+
 .split-left {
     margin: 100px;
     width: 50%;

@@ -478,10 +478,6 @@ a {
 
 }
 
-.hero-commercial img {
-    width: 100%;
-    height: 100%;
-}
 
 .split-left {
     margin: 100px;
@@ -1727,7 +1723,7 @@ a.icons:hover {
     }
 
     .side-nav a {
-        font-size: 15px;
+        font-size: 20px;
     }
 
 

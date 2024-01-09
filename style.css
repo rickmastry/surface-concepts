@@ -1491,9 +1491,6 @@ a.icons:hover {
 }
 
 @media only screen and (max-width: 480px) and (orientation : portrait) {
-    .hero-commercial {
-        background-position: bottom;
-    }
 
     .gallery img {
         transition: 1s;

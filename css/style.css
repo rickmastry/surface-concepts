@@ -188,13 +188,14 @@ h1 {
 
 @media only screen and (max-width: 480px) and (orientation : portrait) {
     .img-container {
+        top: 110px;
         rotate: 90deg;
         display: block;
         left: 0%;
         position: absolute;
         bottom: 100px;
         background-image: url(../img/swoosh-smaller.png);
-        width: 180px;
+        width: 170px;
         background-repeat: no-repeat;
         background-size: contain;
         transition: var(--secondaryTransition);

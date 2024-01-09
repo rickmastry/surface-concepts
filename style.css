@@ -1490,6 +1490,10 @@ a.icons:hover {
 }
 
 @media only screen and (max-width: 480px) and (orientation : portrait) {
+    .hero-commercial {
+        background-position: bottom;
+    }
+
     .gallery img {
         transition: 1s;
         width: 300px;
@@ -1623,6 +1627,9 @@ a.icons:hover {
     }
 
     .p-map {
+        display: block;
+        padding-top: 20px;
+        text-align: center;
         color: white;
         font-size: 15px;
         font-family: 'Fjalla One', sans-serif;
@@ -1687,8 +1694,8 @@ a.icons:hover {
     #map {
         width: 350px;
         height: 350px;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        padding-top: 25px;
+        margin-bottom: 20px;
         margin-left: 30px;
     }
 

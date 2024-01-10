@@ -13,25 +13,29 @@ const places = [
             lnglat: [-78.885681,33.690085]
         },
         {
-            message: 'Murrels Inlet - We cover all areas of the Grand Strand',
+            message: 'Murrels Inlet - We cover all areas of NC & SC',
             lnglat: [-79.041000,33.549928]
         },
         {
-            message: 'Georgetown - We cover all areas of the Grand Strand',
+            message: 'Georgetown - We cover all areas of NC & SC',
             lnglat: [-79.295334,33.374462]
         },
         {
-            message: 'Morth Myrtle Beach - We cover all areas of the Grand Strand',
+            message: 'Morth Myrtle Beach - We cover all areas of NC & SC',
             lnglat: [-78.682296,33.826832]
         },
         {
-            message: 'Pawleys Island - We cover all areas of the Grand Strand',
+            message: 'Pawleys Island - We cover all areas of NC & SC',
             lnglat: [-79.150863,33.425810]
         },
         {
-            message: 'Conway - We cover all areas of the Grand Strand',
+            message: 'Conway - We cover all areas of NC & SC',
             lnglat: [-79.052536,33.835955]
         },
+        {
+            message: 'Wilmington - We cover all areas of NC & SC',
+            lnglat: [-77.971069,34.196302]
+        }
 ]
 
 places.forEach(({name, message, lnglat}) => {

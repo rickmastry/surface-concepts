@@ -912,7 +912,9 @@ a {
 }
 
 .p-map {
-    display: none;
+    padding: 10px;
+    text-align: center;
+    color: var(--mainWhite);
 }
 
 footer {

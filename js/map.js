@@ -35,6 +35,10 @@ const places = [
         {
             message: 'Wilmington - We cover all areas of NC & SC',
             lnglat: [-77.971069,34.196302]
+        },
+        {
+            message: 'Charelston - We cover all areas of NC & SC',
+            lnglat: [-79.944214,32.800550]
         }
 ]
 

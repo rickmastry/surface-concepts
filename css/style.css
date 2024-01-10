@@ -195,7 +195,7 @@ h1 {
         position: absolute;
         bottom: 100px;
         background-image: url(../img/swoosh-smaller.png);
-        width: 170px;
+        width: 190px;
         background-repeat: no-repeat;
         background-size: contain;
         transition: var(--secondaryTransition);

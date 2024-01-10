@@ -35,11 +35,12 @@ body {
     background-image: url('../img/pelicans.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
+    border-right: 3px solid black;
 }
 
 
 .img-container {
+    display: none;
     top: 119px;
     bottom: 0;
     position: absolute;
@@ -75,7 +76,7 @@ body {
     background-image: url('../beforeAfterImg/RESIDENTIAL SPLASH.JPEG');
     background-repeat: no-repeat;
     background-size: cover;
-
+    border-left: 3px solid black;
 }
 
 .split.right::before {
@@ -188,6 +189,20 @@ h1 {
 
 @media only screen and (max-width: 480px) and (orientation : portrait) {
     .img-container {
+        display: none
+            /* height: 450px;
+        top: 28%;
+        rotate: 90deg;
+        display: block;
+        left: 25%;
+        position: absolute;
+        bottom: 0;
+        background-image: url(../img/swoosh-smaller.png);
+        width: 220px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: var(--secondaryTransition);
+        opacity: 1;
         top: 110px;
         rotate: 90deg;
         display: block;
@@ -195,11 +210,11 @@ h1 {
         position: absolute;
         bottom: 100px;
         background-image: url(../img/swoosh-smaller.png);
-        width: 190px;
+        width: 220px;
         background-repeat: no-repeat;
         background-size: contain;
         transition: var(--secondaryTransition);
-        opacity: 1;
+        opacity: 1;*/
     }
 
 
@@ -274,14 +289,15 @@ h1 {
 
     .split.left {
         top: 0;
-
+        border-bottom: 3px solid black;
+        border-right: 0px solid black;
 
     }
 
     .split.right {
         bottom: 0;
-
-
+        border-top: 3px solid black;
+        border-left: 0px solid black;
     }
 
     .phone {

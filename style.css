@@ -1678,6 +1678,11 @@ a.icons:hover {
         margin-right: 5px;
     }
 
+    .nav-icon {
+        right: 20px;
+    }
+
+
     .navbar-brand {
         width: 200px;
         height: 75px;
@@ -1813,7 +1818,15 @@ a.icons:hover {
         font-size: 1.5rem;
     }
 
-
+    @media only screen and (max-width: 425px) and (orientation : portrait) {
+        #map {
+            width: 350px;
+            height: 350px;
+            padding-top: 25px;
+            margin-bottom: 20px;
+            margin-left: 32px;
+        }
+    }
 
 
 }

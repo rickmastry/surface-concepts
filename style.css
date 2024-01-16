@@ -1548,7 +1548,7 @@ a.icons:hover {
 
     .navbar-secondary .navbar-center .nav-icon {
         right: -10px;
-        margin-right: 50px;
+        margin-right: 30px;
         position: absolute;
         display: block !important;
         font-size: 1.25rem;
@@ -1765,6 +1765,12 @@ a.icons:hover {
     .side-nav a {
         padding: 10px 10px 1px 10px;
         font-size: 18px;
+
+    }
+
+    .phone {
+        margin-right: 70px;
+        margin-bottom: 0px;
 
     }
 

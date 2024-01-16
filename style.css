@@ -138,6 +138,7 @@ body {
     border-bottom: var(--mainWhite)1px solid;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    width: 100px;
 }
 
 .navigation:hover {
@@ -1220,6 +1221,10 @@ a.icons:hover {
 
 
 @media only screen and (max-width: 950px) and (orientation : landscape) {
+    .google-icon {
+        display: none;
+    }
+
     .gallery {
         display: grid;
         grid-template-columns: 1fr;
@@ -1415,6 +1420,10 @@ a.icons:hover {
 }
 
 @media only screen and (max-width: 768px) and (orientation : portrait) {
+    .google-icon {
+        display: none;
+    }
+
     .article-first-section {
 
         height: 150px;
@@ -1518,6 +1527,9 @@ a.icons:hover {
 }
 
 @media only screen and (max-width: 480px) and (orientation : portrait) {
+    .google-icon {
+        display: none;
+    }
 
     .gallery img {
         transition: 1s;

@@ -188,34 +188,7 @@ h1 {
 }
 
 @media only screen and (max-width: 480px) and (orientation : portrait) {
-    .img-container {
-        display: none
-            /* height: 450px;
-        top: 28%;
-        rotate: 90deg;
-        display: block;
-        left: 25%;
-        position: absolute;
-        bottom: 0;
-        background-image: url(../img/swoosh-smaller.png);
-        width: 220px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        transition: var(--secondaryTransition);
-        opacity: 1;
-        top: 110px;
-        rotate: 90deg;
-        display: block;
-        left: 0%;
-        position: absolute;
-        bottom: 100px;
-        background-image: url(../img/swoosh-smaller.png);
-        width: 220px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        transition: var(--secondaryTransition);
-        opacity: 1;*/
-    }
+
 
 
     .img-container-logo {

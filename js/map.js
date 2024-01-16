@@ -1,11 +1,17 @@
+
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiamFocmlrIiwiYSI6ImNscG9nejMzczBuaGkya3E0MTc5Ym9wMDEifQ.Km4kW98r76OaOAhllYWtSQ';
+var w = document.documentElement.clientWidth || window.innerWidth;
 const map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/standard',
 /*projection: 'globe', // Display the map as a globe, since satellite-v9 defaults to Mercator*/
 zoom: 7,
 center: [-78.885681,33.690085]
+
 });
+
+
 
 const places = [
         {
@@ -122,7 +128,7 @@ map.on('moveend', () => {
 spinGlobe();
 });
  
-document.getElementById('btn-spin').addEventListener('click', (e) => {
+/*document.getElementById('btn-spin').addEventListener('click', (e) => {
 spinEnabled = !spinEnabled;
 if (spinEnabled) {
 spinGlobe();
@@ -133,4 +139,4 @@ e.target.innerHTML = 'Start rotation';
 }
 });
  
-spinGlobe();
+spinGlobe();*/

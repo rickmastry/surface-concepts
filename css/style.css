@@ -126,10 +126,122 @@ h1 {
 
 }
 
-@media only screen and (max-width: 1300px) and (orientation : landscape) {
-    .img-container {
-        right: 42%;
+@media only screen and (max-width: 1400px) and (orientation : landscape) {
+    .navbar {
+        padding: 90px 10px;
+
     }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .navbar-brand {
+        margin-left: 100px;
+        width: 200px;
+        height: 75px;
+    }
+
+    .nav-icon {
+        position: absolute;
+        right: 70px;
+        display: block !important;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: white;
+    }
+
+    .fas.fa-bars {
+        display: block !important;
+        cursor: pointer !important;
+
+    }
+
+    .navigation {
+        display: none !important;
+
+    }
+
+    .side-nav a {
+        font-size: 18px;
+        padding: 7px 7px 1px 7px;
+    }
+
+    #side-nav-b {
+        padding: 7px 1px 5px 60px;
+        font-size: 16px;
+    }
+
+    .phone {
+        margin-right: 200px;
+        margin-bottom: 0px;
+
+    }
+
+}
+
+@media only screen and (max-width: 1100px) and (orientation : portrait) {
+
+    .split.right h1,
+    .split.left h1 {
+        font-size: 2rem;
+
+    }
+
+    .hover-left .left {
+        height: var(--hoverHeight);
+        width: var(--hoverWidthFull);
+
+    }
+
+    .hover-left .left h1 {
+        margin-bottom: 20px;
+    }
+
+    .hover-left .right {
+        height: var(--otherHoverHeight);
+        width: var(--hoverWidthFull);
+
+    }
+
+    .hover-right .right {
+        height: var(--hoverHeight);
+        width: var(--hoverWidthFull);
+
+    }
+
+    .hover-right .left {
+        height: var(--otherHoverHeight);
+        width: var(--hoverWidthFull);
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .split {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        overflow: hidden;
+
+    }
+
+    .split.left {
+        top: 0;
+        border-bottom: 3px solid black;
+        border-right: 0px solid black;
+
+    }
+
+    .split.right {
+        bottom: 0;
+        border-top: 3px solid black;
+        border-left: 0px solid black;
+    }
+
 }
 
 @media only screen and (max-width: 950px) and (orientation : landscape) {
